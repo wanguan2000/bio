@@ -1,0 +1,12 @@
+gwascatalog	Name=Reasoning	chr1	2069681	2069681	C	T	unknown	36.61	2	60.00	18.31
+gwascatalog	Name=Ulcerative colitis	chr1	2513216	2513216	C	T	unknown	14.92	2	60.00	7.46
+gwascatalog	Name=Celiac disease	chr1	2526746	2526746	A	G	hom	4391.49	304	59.08	14.45
+gwascatalog	Name=Schizophrenia	chr1	8422676	8422676	T	C	hom	710.56	21	60.00	33.84
+gwascatalog	Name=Vitiligo	chr1	8526142	8526142	G	A	hom	3926.66	127	59.82	30.92
+gwascatalog	Name=Plasma homocysteine	chr1	11856378	11856378	G	A	het	5225.33	322	58.37	16.18
+gwascatalog	Name=Height	chr1	17331676	17331676	A	G	het	2917.42	92	58.48	31.71
+gwascatalog	Name=Rheumatoid arthritis	chr1	17674537	17674537	C	A	hom	5276.63	213	59.22	24.77
+gwascatalog	Name=Diabetic retinopathy 	chr1	18795255	18795255	T	C	hom	11.56	1	60.00	11.56
+gwascatalog	Name=Brain structure	chr1	19568972	19568972	A	G	hom	5495.87	172	59.06	31.95
+gwascatalog	Name=Folate pathway vitamin levels	chr1	21786068	21786068	C	T	hom	4374.76	263	59.14	16.63
+gwascatalog	Name=Height	chr1	23536891	23536891	C	G	het	72.23	10	60.00	9.03

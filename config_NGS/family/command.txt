@@ -1,0 +1,30 @@
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/family/config_J21.py >nohup_NGS/family/nohup_J21.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/family/config_J22.py >nohup_NGS/family/nohup_J22.txt 2>&1 &
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/family/config_J23.py >nohup_NGS/family/nohup_J23.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/family/config_J24.py >nohup_NGS/family/nohup_J24.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/family/config_K11.py >nohup_NGS/family/nohup_K11.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/family/config_S7_2.py >nohup_NGS/family/nohup_S7_2.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/family/config_S7_4.py >nohup_NGS/family/nohup_S7_4.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/family/config_D804_1.py >nohup_NGS/family/nohup_D804_1.txt 2>&1 &
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/family/config_D804_4.py >nohup_NGS/family/nohup_D804_4.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/family/config_hongquan.py >nohup_NGS/family/nohup_hongquan.txt 2>&1 &
+
+
+
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/test_pipeline.py config_NGS/family/config_D804_1.py >nohup_NGS/family/nohup_D804_1.txt 2>&1 &
+
+
+python pipeline_NGS/test_pipeline.py config_NGS/family/config_D804_1.py
+
+

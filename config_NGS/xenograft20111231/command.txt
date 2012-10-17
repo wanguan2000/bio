@@ -1,0 +1,43 @@
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/mytest_pipeline.py config_NGS/xenograft20111231/config_PC_07_0003_Xenograft_P2.py >nohup_NGS/xenograft20111231/nohup_PC_07_0003_Xenograft_P2.txt 2>&1 &
+
+
+
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_PC_07_0002_Xenograft_P2.py >nohup_NGS/xenograft20111231/nohup_PC_07_0002_Xenograft_P2.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_PC_07_0003_Xenograft_P2.py >nohup_NGS/xenograft20111231/nohup_PC_07_0003_Xenograft_P2.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_PC_07_0004_Xenograft_P2.py >nohup_NGS/xenograft20111231/nohup_PC_07_0004_Xenograft_P2.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ST_02_0001_Xenograft_P2.py >nohup_NGS/xenograft20111231/nohup_ST_02_0001_Xenograft_P2.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ST_02_0003_Xenograft_P2.py >nohup_NGS/xenograft20111231/nohup_ST_02_0003_Xenograft_P2.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ST_02_0004_Xenograft_P2.py >nohup_NGS/xenograft20111231/nohup_ST_02_0004_Xenograft_P2.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ST_02_0006_Xenograft_P2.py >nohup_NGS/xenograft20111231/nohup_ST_02_0006_Xenograft_P2.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ST_02_0007_Xenograft_P2.py >nohup_NGS/xenograft20111231/nohup_ST_02_0007_Xenograft_P2.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ST_02_0009_Xenograft_P1.py >nohup_NGS/xenograft20111231/nohup_ST_02_0009_Xenograft_P1.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ST_02_0010_Xenograft_P2.py >nohup_NGS/xenograft20111231/nohup_ST_02_0010_Xenograft_P2.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ST_02_0011_Xenograft_P1.py >nohup_NGS/xenograft20111231/nohup_ST_02_0011_Xenograft_P1.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_LI_03_0021.py >nohup_NGS/xenograft20111231/nohup_LI_03_0021.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_LI_03_0164.py >nohup_NGS/xenograft20111231/nohup_LI_03_0164.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_LP_19_0001_Xenograft_P1.py >nohup_NGS/xenograft20111231/nohup_LP_19_0001_Xenograft_P1.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_LU_01_0021.py >nohup_NGS/xenograft20111231/nohup_LU_01_0021.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_LU_01_0042.py >nohup_NGS/xenograft20111231/nohup_LU_01_0042.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ES_06_0009.py >nohup_NGS/xenograft20111231/nohup_ES_06_0009.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ES_06_0010.py >nohup_NGS/xenograft20111231/nohup_ES_06_0010.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ES_06_0020.py >nohup_NGS/xenograft20111231/nohup_ES_06_0020.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ES_06_0021.py >nohup_NGS/xenograft20111231/nohup_ES_06_0021.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ES_06_0028.py >nohup_NGS/xenograft20111231/nohup_ES_06_0028.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ES_06_0020_noPRC.py >nohup_NGS/xenograft20111231/nohup_ES_06_0020_noPRC.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ES_06_0009_noPRC.py >nohup_NGS/xenograft20111231/nohup_ES_06_0009_noPRC.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ST_02_0004_Xenograft_P2_noPRC.py >nohup_NGS/xenograft20111231/nohup_ST_02_0004_Xenograft_P2_noPRC.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_ST_02_0003_Xenograft_P2_noPRC.py >nohup_NGS/xenograft20111231/nohup_ST_02_0003_Xenograft_P2_noPRC.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/xenograft20111231/config_PC_07_0004_Xenograft_P2_noPRC.py >nohup_NGS/xenograft20111231/nohup_PC_07_0004_Xenograft_P2_noPRC.txt 2>&1 &

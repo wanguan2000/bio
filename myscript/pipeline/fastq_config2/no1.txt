@@ -1,0 +1,21 @@
+nohup: 忽略输入
+cat: *_R1_*.fastq: 没有那个文件或目录
+cat: *_R2_*.fastq: 没有那个文件或目录
+cat *_R1_*.fastq > G4-0001_R1.fastq
+cat *_R2_*.fastq > G4-0001_R2.fastq
+cat *_R1_*.fastq > G4-0002_R1.fastq
+cat *_R2_*.fastq > G4-0002_R2.fastq
+cat *_R1_*.fastq > G4-0003_R1.fastq
+cat *_R2_*.fastq > G4-0003_R2.fastq
+cat *_R1_*.fastq > G4-0004_R1.fastq
+cat *_R2_*.fastq > G4-0004_R2.fastq
+cat *_R1_*.fastq > G4-0006_R1.fastq
+cat *_R2_*.fastq > G4-0006_R2.fastq
+cat *_R1_*.fastq > G4-0007_R1.fastq
+cat *_R2_*.fastq > G4-0007_R2.fastq
+cat *_R1_*.fastq > G4-0027_R1.fastq
+cat *_R2_*.fastq > G4-0027_R2.fastq
+cat *_R1_*.fastq > G4-0029_R1.fastq
+cat *_R2_*.fastq > G4-0029_R2.fastq
+cat *_R1_*.fastq > 2_R1.fastq
+cat *_R2_*.fastq > 2_R2.fastq

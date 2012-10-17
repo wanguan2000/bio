@@ -1,0 +1,60 @@
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood04.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood04.txt 2>&1 &
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood11.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood11.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood12.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood12.txt 2>&1 &
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood14.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood14.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood16.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood16.txt 2>&1 &
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood19.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood19.txt 2>&1 &
+
+
+
+
+###all somatic#####
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_all_calling2.py config_NGS/somatic/config_somatic_all.py >nohup_NGS/Sample6Triangle/somatic/nohup_all.txt 2>&1 &
+
+
+
+/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/somatic
+
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183138L/Sample_183138L_R1_Sample_183138L_R2_sort_realign_dedup_mate_recal.bam',
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183138M/Sample_183138M_R1_Sample_183138M_R2_sort_realign_dedup_mate_recal.bam',
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183138T/Sample_183138T_R1_Sample_183138T_R2_sort_realign_dedup_mate_recal.bam',
+
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183604L/Sample_183604L_R1_Sample_183604L_R2_sort_realign_dedup_mate_recal.bam',
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183604M/Sample_183604M_R1_Sample_183604M_R2_sort_realign_dedup_mate_recal.bam',
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183604T/Sample_183604T_R1_Sample_183604T_R2_sort_realign_dedup_mate_recal.bam',
+
+
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183744L/Sample_183744L_R1_Sample_183744L_R2_sort_realign_dedup_mate_recal.bam',
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183744M/Sample_183744M_R1_Sample_183744M_R2_sort_realign_dedup_mate_recal.bam',
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183744T/Sample_183744T_R1_Sample_183744T_R2_sort_realign_dedup_mate_recal.bam',
+
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183948L/Sample_183948L_R1_Sample_183948L_R2_sort_realign_dedup_mate_recal.bam',
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183948M/Sample_183948M_R1_Sample_183948M_R2_sort_realign_dedup_mate_recal.bam',
+'/gpfs/home/wanguan2000/NGSToolkit/result_NGS/tq/result_Sample_183948T/Sample_183948T_R1_Sample_183948T_R2_sort_realign_dedup_mate_recal.bam',
+
+
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/tq/somatic/config_somatic_Sample_183138.py > nohup_NGS/tq/somatic/nohup_Sample_183138.txt 2>&1 &
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/tq/somatic/config_somatic_Sample_183604.py > nohup_NGS/tq/somatic/nohup_Sample_183604.txt 2>&1 &
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/tq/somatic/config_somatic_Sample_183744.py > nohup_NGS/tq/somatic/nohup_Sample_183744.txt 2>&1 &
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/tq/somatic/config_somatic_Sample_183948.py > nohup_NGS/tq/somatic/nohup_Sample_183948.txt 2>&1 &
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+ANNOVAR Version:
+	$LastChangedDate: 2012-05-25 01:57:38 -0700 (Fri, 25 May 2012) $
+ANNOVAR Information:
+	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
+ANNOVAR Command:
+	/gpfs/home/wanguan2000/NGSToolkit/software_NGS/annovar20120401/annotate_variation.pl --buildver hg19 -dbtype gff3 -regionanno -gff3dbfile cosmic.gff3 iv13-sy_ALLmerge_realign_mate_recal_raw_indel_filtered_Hqual.human /gpfs/home/wanguan2000/NGSToolkit/software_NGS/annovar20120401/humandb/
+ANNOVAR Started:
+	Sun Oct 14 11:06:25 2012
+NOTICE: Reading annotation database /gpfs/home/wanguan2000/NGSToolkit/software_NGS/annovar20120401/humandb/cosmic.gff3 ... Done with 92478 regions
+NOTICE: Finished region-based annotation on 27444 genetic variants in iv13-sy_ALLmerge_realign_mate_recal_raw_indel_filtered_Hqual.human (including 1 with invalid format written to iv13-sy_ALLmerge_realign_mate_recal_raw_indel_filtered_Hqual.human.invalid_input)
+NOTICE: Output files were written to iv13-sy_ALLmerge_realign_mate_recal_raw_indel_filtered_Hqual.human.hg19_gff3

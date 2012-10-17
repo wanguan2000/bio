@@ -1,0 +1,30 @@
+Variant Statistics Items	iv13-sy_ALL
+Total Indels number:	27444
+Delete:	15257
+Insert:	12187
+dbSNP:	16731(61.0%)
+1000G:	12344(45.0%)
+NA:	1601
+UTR3:	5228
+UTR5:	586
+UTR5;UTR3:	1
+downstream:	434
+exonic:	488
+exonic;splicing:	11
+intergenic:	5969
+intronic:	11224
+ncRNA_UTR3:	93
+ncRNA_UTR5:	2
+ncRNA_exonic:	524
+ncRNA_intronic:	748
+ncRNA_splicing:	3
+splicing:	83
+upstream:	427
+upstream;downstream:	22
+Exon_frameshift deletion:	91
+Exon_frameshift insertion:	68
+Exon_nonframeshift deletion:	153
+Exon_nonframeshift insertion:	105
+Exon_stopgain SNV:	5
+Exon_stoploss SNV:	1
+Exon_unknown:	76

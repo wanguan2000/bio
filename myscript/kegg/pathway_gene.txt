@@ -1,0 +1,7 @@
+path:hsa00511	hsa:2720
+path:hsa04142	hsa:2720
+path:hsa00600	hsa:2720
+path:hsa00604	hsa:2720
+path:hsa01100	hsa:2720
+path:hsa00052	hsa:2720
+path:hsa00531	hsa:2720

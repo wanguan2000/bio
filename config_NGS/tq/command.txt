@@ -1,0 +1,23 @@
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183138M.py >nohup_NGS/tq/nohup_Sample_183138M.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183138T.py >nohup_NGS/tq/nohup_Sample_183138T.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183604L.py >nohup_NGS/tq/nohup_Sample_183604L.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183604M.py >nohup_NGS/tq/nohup_Sample_183604M.txt 2>&1 &
+
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183604T.py >nohup_NGS/tq/nohup_Sample_183604T.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183744L.py >nohup_NGS/tq/nohup_Sample_183744L.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183744M.py >nohup_NGS/tq/nohup_Sample_183744M.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183744T.py >nohup_NGS/tq/nohup_Sample_183744T.txt 2>&1 &
+
+
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183948L.py >nohup_NGS/tq/nohup_Sample_183948L.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183948M.py >nohup_NGS/tq/nohup_Sample_183948M.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183948T.py >nohup_NGS/tq/nohup_Sample_183948T.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/tq/config_Sample_183138L.py >nohup_NGS/tq/nohup_Sample_183138L.txt 2>&1 &
+
+
+

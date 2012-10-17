@@ -1,0 +1,8 @@
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/Sample6Triangle/config_xeno11.py >nohup_NGS/Sample6Triangle/nohup_xeno11.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/Sample6Triangle/config_xeno12.py >nohup_NGS/Sample6Triangle/nohup_xeno12.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/Sample6Triangle/config_xeno14.py >nohup_NGS/Sample6Triangle/nohup_xeno14.txt 2>&1 &
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/Sample6Triangle/config_xeno16.py >nohup_NGS/Sample6Triangle/nohup_xeno16.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/Sample6Triangle/config_xeno19.py >nohup_NGS/Sample6Triangle/nohup_xeno19.txt 2>&1 &
+nohup python pipeline_NGS/xenograft_pipeline.py config_NGS/Sample6Triangle/config_xeno04.py >nohup_NGS/Sample6Triangle/nohup_xeno04.txt 2>&1 &

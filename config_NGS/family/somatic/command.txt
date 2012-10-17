@@ -1,0 +1,20 @@
+
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/family/somatic/config_somatic_D804.py > nohup_NGS/family/somatic_D804.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/family/somatic/config_somatic_J2d.py > nohup_NGS/family/somatic_J2d.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/family/somatic/config_somatic_S7.py > nohup_NGS/family/somatic_S7.txt 2>&1 &
+
+
+
+
+
+
+
+
+
+

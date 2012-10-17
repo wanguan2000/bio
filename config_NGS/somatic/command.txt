@@ -1,0 +1,22 @@
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood04.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood04.txt 2>&1 &
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood11.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood11.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood12.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood12.txt 2>&1 &
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood14.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood14.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood16.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood16.txt 2>&1 &
+nohup python pipeline_NGS/somatic_pipeline.py config_NGS/somatic/config_somatic_blood19.py >nohup_NGS/Sample6Triangle/somatic/nohup_blood19.txt 2>&1 &
+
+
+
+
+###all somatic#####
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/somatic_all_calling2.py config_NGS/somatic/config_somatic_all.py >nohup_NGS/Sample6Triangle/somatic/nohup_all.txt 2>&1 &
+
+
+
+

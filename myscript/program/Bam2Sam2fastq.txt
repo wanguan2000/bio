@@ -1,0 +1,19 @@
+java -Xmx15g -jar /gpfs/home/wanguan2000/NGSToolkit/software_NGS/GATK/GenomeAnalysisTK-1.3-24-gc8b1c92/GenomeAnalysisTK.jar \
+  -R /gpfs/home/wanguan2000/NGSToolkit/database_NGS/hg19fastadatabase/ucsc.hg19.fasta \
+  -T PrintReads \
+  -I /gpfs/home/wanguan2000/NGSToolkit/result_NGS/xenograft20111231/result_LP_19_0001_Xenograft_P1/LP_19_0001_Xenograft_P1_R1_human_LP_19_0001_Xenograft_P1_R2_human_sort_realign_dedup_mate_recal.bam \
+  -o TP53.bam \
+  -L chr17:7571720-7590863
+
+
+
+java -Xmx4g -jar /gpfs/home/wanguan2000/NGSToolkit/software_NGS/picard-tools-1.55/SamFormatConverter.jar \
+   INPUT= TP53.bam \
+   OUTPUT= TP53.sam
+
+
+java -Xmx4g -jar /gpfs/home/wanguan2000/NGSToolkit/software_NGS/picard-tools-1.55/SamToFastq.jar \
+   INPUT= TP53.sam \
+   FASTQ= TP53_R1.fastq \
+   SECOND_END_FASTQ= TP53_R2.fastq
+

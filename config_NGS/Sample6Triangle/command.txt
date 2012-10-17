@@ -1,0 +1,22 @@
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_blood04.py >nohup_NGS/Sample6Triangle/nohup_blood04.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_blood11.py >nohup_NGS/Sample6Triangle/nohup_blood11.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_blood12.py >nohup_NGS/Sample6Triangle/nohup_blood12.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_blood14.py >nohup_NGS/Sample6Triangle/nohup_blood14.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_blood16.py >nohup_NGS/Sample6Triangle/nohup_blood16.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_blood19.py >nohup_NGS/Sample6Triangle/nohup_blood19.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_tissue04.py >nohup_NGS/Sample6Triangle/nohup_tissue04.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_tissue11.py >nohup_NGS/Sample6Triangle/nohup_tissue11.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_tissue12.py >nohup_NGS/Sample6Triangle/nohup_tissue12.txt 2>&1 &
+
+cd /gpfs/home/wanguan2000/NGSToolkit/
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_tissue14.py >nohup_NGS/Sample6Triangle/nohup_tissue14.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_tissue16.py >nohup_NGS/Sample6Triangle/nohup_tissue16.txt 2>&1 &
+nohup python pipeline_NGS/deepseq_pipeline.py config_NGS/Sample6Triangle/config_tissue19.py >nohup_NGS/Sample6Triangle/nohup_tissue19.txt 2>&1 &
+
+
+nohup python pipeline_NGS/somatic_all_calling2.py config_NGS/Sample6Triangle/config_tissue14.py >nohup_NGS/Sample6Triangle/nohup_tissue14.txt 2>&1 &
